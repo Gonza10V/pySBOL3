@@ -1,12 +1,12 @@
 from setuptools import setup
 
-setup(name='sbol3',
+setup(name='sbol3_for_pudu',
       version='1.2',
-      description='Python implementation of SBOL 3 standard',
+      description='Python implementation of SBOL 3 standard compatible with PUDU',
       python_requires='>=3.7',
-      url='https://github.com/SynBioDex/pySBOL3',
-      author='Tom Mitchell',
-      author_email='tcmitchell@users.noreply.github.com',
+      url='https://github.com/Gonza10V/pySBOL3',
+      author='Gonzalo Vidal',
+      author_email='gvidal1011@gmail.com',
       license='MIT License',
       # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -14,7 +14,7 @@ setup(name='sbol3',
             #   3 - Alpha
             #   4 - Beta
             #   5 - Production/Stable
-            'Development Status :: 5 - Production/Stable',
+            'Development Status :: 3 - Alpha',
 
             # Indicate who your project is intended for
             'Intended Audience :: Developers',
@@ -39,7 +39,7 @@ setup(name='sbol3',
             # Require at least rdflib 6.1.1, and allow newer versions
             # of rdflib 6.x
             'rdflib>=6.1.1,==6.*',
-            'python-dateutil~=2.8.2',
+            'python-dateutil==2.7.4',
             'pyshacl~=0.21',
       ],
       test_suite='test',
