@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='sbol3_for_pudu',
-      version='1.2',
+      version='1.0.0a1',
       description='Python implementation of SBOL 3 standard compatible with PUDU',
       python_requires='>=3.7',
       url='https://github.com/Gonza10V/pySBOL3',
